@@ -280,6 +280,26 @@ footer{
     height:220px;
   }
 }
+@media (max-width:768px){
+
+  /* Fundo mais leve no celular */
+  .bg-animated{
+    background-position:center;
+    filter:grayscale(100%) brightness(0.6);
+  }
+
+  /* Remove animação pesada */
+  .bg-animated::after{
+    animation:none;
+    opacity:.35;
+  }
+
+  /* Títulos mais equilibrados */
+  h1{font-size:26px;}
+  h2{font-size:22px;}
+  h3{font-size:24px;}
+
+}
 
 
 
