@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+  background: red !important;
+}@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 *{
   margin:0;
@@ -267,3 +269,4 @@ footer{
     height:220px;
   }
 }
+
