@@ -15,21 +15,23 @@ body{
 }
 
 /* FUNDO */
-/* FUNDO PREMIUM – AMORTECEDOR */
+/* FUNDO PREMIUM – AMORTECEDOR DE CARRO (SEGUNDA IMAGEM) */
 .bg-animated{
   position:fixed;
   inset:0;
   z-index:-1;
 
   background:
-    linear-gradient(rgba(0,20,40,.75), rgba(0,20,40,.9)),
-    url("https://images.unsplash.com/photo-1605559424843-9a2b1fbb8c4b");
+    linear-gradient(rgba(0,20,40,.82), rgba(0,20,40,.95)),
+    url("https://images.unsplash.com/photo-1583267746897-2cf415887172?auto=format&fit=crop&w=1920&q=80");
 
   background-size:cover;
-  background-position:center right;
+  background-position:center left;
+  background-repeat:no-repeat;
+  filter:grayscale(100%) contrast(120%);
 }
 
-/* CAMADA AZUL PULSANTE */
+/* LUZ AZUL TECNOLÓGICA NA FRENTE */
 .bg-animated::after{
   content:"";
   position:absolute;
@@ -37,12 +39,12 @@ body{
   background:
     radial-gradient(circle at 25% 30%, rgba(0,180,255,.35), transparent 40%),
     radial-gradient(circle at 70% 65%, rgba(0,120,255,.25), transparent 45%);
-  animation:bluePulse 7s ease-in-out infinite;
+  animation:bluePulse 8s ease-in-out infinite;
 }
 
 @keyframes bluePulse{
-  0%{opacity:.3}
-  50%{opacity:.7}
+  0%{opacity:.35}
+  50%{opacity:.75}
   100%{opacity:.4}
 }
 
@@ -278,6 +280,7 @@ footer{
     height:220px;
   }
 }
+
 
 
 
