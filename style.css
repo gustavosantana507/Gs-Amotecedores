@@ -84,8 +84,9 @@ body{
 }
 .logo{
   width:160px;
+  height:auto;
+  display:block;
 }
-
 /* HERO */
 .hero{
   text-align:center;
@@ -336,6 +337,7 @@ footer{
     font-size:30px;
   }
 }
+
 
 
 
