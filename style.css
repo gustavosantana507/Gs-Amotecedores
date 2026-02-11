@@ -49,10 +49,11 @@ body{
 }
 
 /* TOPO */
-.topo{
+.topo .container{
   display:flex;
-  justify-content:center;
-  padding:25px;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
 }
 /* TEXTO GS AMORTECEDORES – DESTAQUE */
 .logo-text{
@@ -327,11 +328,15 @@ footer{
 
 }
 @media (max-width:768px){
+  .logo{
+    width:130px;
+  }
+
   .logo-text{
-    font-size:32px;
-    letter-spacing:2px;
+    font-size:30px;
   }
 }
+
 
 
 
